@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "montserrat", sans-serif;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    
+}
+.main{
+    height: 100%;
+    width: 100vw;
+    background-color: beige;
+}
+.main .top{
+    height: 60%;
+    display: flex;
+    
+
+}
+.top .top-left{
+    width: 50vw;
+    background-color:#e2e2e2;
+}
+.top-left h1{
+    font-size: 3vw;
+    padding-top: 70px;
+    padding-left: 50px;
+    color: rgb(47, 43, 43);
+}
+.top-left h2{
+    padding-left: 50px;
+    padding-top: 15px;
+    font-size: 1.5vw ;
+   font-weight: 500;
+}
+.top-left p{
+    padding-left: 50px;
+    padding-top: 15px;
+    color: #656262;
+}
+.top-left button{
+    margin-left: 50px;
+    margin-top: 15px;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    font-size: 1vw;
+    color: white;
+    font-weight: 600;
+    border-radius: 30px;
+    background-color:#cb6116;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
+.top-left button:hover{
+    background-color: transparent;
+    border: solid rgb(56, 53, 53);
+    color: rgb(80, 78, 78);
+}
+span{
+    font-size: 15px;
+    color:black;
+    gap: 3px;
+}
+
+.top .top-right{
+    width: 50vw;
+    background-color: rgb(232, 143, 143);
+}
+.top-right img{
+    width: 50vw;
+    height: 60vh;
+}
+.main .bottom{
+    display: flex;
+    justify-content: center;
+    height: 40%;
+    background-image: linear-gradient(to right top, #324505, #324505, #324505, #324505, #324505, #354806, #384c06, #3b4f07, #425609, #485d0b, #4f650e, #566c10);
+}
+.bottom .footer{
+    width: 50vw;
+    height: 100%;
+    
+
+}
+.bottom .footer h1{
+    padding-top: 50px;
+     font-size: 3vw;
+     font-weight: 400;
+     word-spacing: 2px;
+     text-align: center;
+     color: #ffffff;
+}
+.bottom .footer p{
+    font-size: 1.5vw;
+    color: hwb(0 100% 0%);
+    padding-top: 7px;
+    text-align: center;
+}
+.bottom .footer button{
+    border: none;
+    
+    padding: 10px 25px 10px 25px;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    font-size: 1vw;
+    color: white;
+    font-weight: 600;
+    border-radius: 30px;
+    background-color:#cb6116;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+
+}
+.bottom .footer button:hover{
+    background-color: white;
+    border: solid rgb(56, 53, 53);
+    color: rgb(80, 78, 78);
+}
